@@ -1,0 +1,2 @@
+numpy --only-binary=:all:
+matplotlib --only-binary=:all:
