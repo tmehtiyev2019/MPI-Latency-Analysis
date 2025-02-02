@@ -58,7 +58,7 @@ As we move from **Scenario 1 (1 pair)** to **Scenario 4 (4 pairs)**:
 
 ## Running the Code
 
-### Prerequisites
+### Steps
 ```bash
 
 # Compile the MPI program
@@ -66,7 +66,15 @@ mpicc p1.c -lm -o p1
 
 ```
 
-This will generate a file `p1`
+OR simply run the Makefile with the folllowign command
+
+```bash
+
+make
+
+```
+
+Both commands above will generate a file named p1.
 
 ```bash
 # Install dependencies from requirements.txt
